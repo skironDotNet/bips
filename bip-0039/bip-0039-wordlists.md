@@ -82,3 +82,22 @@ Words chosen using the following rules:
 Rules 11 and 12 prevent the selection words that are not different enough. This makes each word more recognizable among others and less error prone. For example: the wordlist contains "atono", then "atomo" is rejected, but "atomico" is good.
 
 All the words have been manually selected and automatically checked against the rules.
+
+### Polish
+
+Credits: @skironDotNet and Polish Diceware author: Piotr (DrFugazi) Tarnowski 
+
+Words randomly chosen from Polish diceware and following rules applied :
+
+1. Simple and common Polish words.
+2. Length between 4 and 6 characters.
+3. No accents or Polish special characters.
+4. No letter conjunction that can be represent as special character ie. no words with "rz" that could be "ż", etc.
+4. No complex verb forms.
+5. No plural words.
+6. If both female/male words are available, choose male version.
+7. No words already that are derived from English like "wolt" from "volt"
+8. No words with special character ambiguity despite using rule 3 like "posuw" some people could try to enter "posów" -> "posow" 
+9. No names
+
+All the words have been manually  checked against the rules.
